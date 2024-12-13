@@ -1,0 +1,198 @@
+body {
+    width: 1100px;
+    height: 160vh;
+    text-align: center;
+    line-height: 2;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: rgb(238, 207, 170);
+    border: 2px solid blue;
+    border-radius: 18px;
+    padding-left: 40px;
+
+}
+
+.container {
+    display: flex;
+    justify-items: space-between;
+
+}
+
+h1 {
+    max-width: 300px;
+    color: rgb(128, 0, 248);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+span {
+    display: inline-block;
+    max-width: 300px;
+    font-size: 15px;
+}
+
+.h1+span {
+    margin-left: 50px;
+}
+
+.star {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin-left: 400px;
+    margin-top: 77px;
+    align-items: center;
+    height: 139px;
+
+
+}
+
+:root {
+    --border-radius: 15px;
+    --height: 30px;
+}
+
+.star1 {
+    background-color: rgb(9, 65, 250);
+    align-content: center;
+    border-radius: var(--border-radius);
+    height: var(--height);
+
+
+
+}
+
+.star2 {
+    background-color: rgb(6, 210, 236);
+    align-content: center;
+    border-radius: var(--border-radius);
+    height: var(--height);
+
+}
+
+.star3 {
+    background-color: rgb(3, 248, 97);
+    align-content: center;
+    border-radius: var(--border-radius);
+    height: var(--height);
+
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    /* justify-content: space-around; */
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin-left: 20px;
+
+}
+
+.ColtonSmith {
+    background-color: rgb(248, 120, 0);
+    border-radius: 16px;
+    /* margin-bottom: 40px; */
+    max-width: 262px;
+}
+
+.Colton-Smith-whith-p {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.img-ColtonSmith {
+    width: 50px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.p {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 10px;
+}
+
+.Irene-Roberts {
+    background-color: rgb(112, 248, 0);
+    border-radius: 16px;
+    /* margin-top: 30px; */
+    max-width: 262px;
+}
+
+.img-Irene-whith-p {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-Irene {
+    /* filter: blur(3px);
+    border: 1px solid rgb(2, 240, 240); */
+    width: 50px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+
+}
+
+.pp {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 10px;
+}
+
+.Anne-Wallace {
+    background-color: rgb(0, 153, 255);
+    border-radius: 16px;
+    /* margin-top: 60px; */
+    transition: all;
+    max-width: 262px;
+
+}
+
+/* .Anne-Wallace:hover {
+    margin-bottom: 80px;
+} */
+
+.Anne-Wallace-whithe-p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-Anne {
+    /* filter: blur(3px);
+    border: 1px solid blue; */
+    width: 50px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ppp {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 10px;
+}
+
+
+
+footer {
+    height: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
